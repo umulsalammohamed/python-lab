@@ -1,0 +1,4 @@
+My Python Lab Project
+Separating the project into `src`, `tests`, and `docs` is good practice because each folder has a specific purpose. The `src` folder contains the program's source code, the `tests` folder contains files used to test the program, and the `docs` folder contains documentation. This organization keeps the project neat, makes files easier to find, and makes the project easier to maintain as it grows.
+
+The `mkdir` command creates new directories, while `cd` moves into a directory. The `touch` command creates empty files such as `main.py`, `utils.py`, and `config.py`. The `echo` command with output redirection (`>`) writes the required text into `README.md`. The recursive directory listing command displays all the folders and files inside `python_lab`, including their structure and nesting.
