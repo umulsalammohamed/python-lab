@@ -37,7 +37,9 @@ Enter a number: 2
 Square: 4.0
 The number is even.
 Fahrenheit: 35.6
-PS C:\Users\HP\Desktop\python_lab> py src/main.py
+PS C:\Users\HP\Desktop\python_lab> py 
+
+src/main.py
 Enter a number: 5
 Square: 25.0
 The number is odd.
@@ -55,3 +57,6 @@ Python's import system allows main.py to use functions defined in utils.py. The 
 Testing:
 
 I tested the program with three different input values: 2, 5, and 4. For each input, the program correctly calculated the square, determined whether the number was even or odd, and converted the Celsius value to Fahrenheit.
+
+PART D
+Developers use branches and pull requests instead of committing directly to main to protect the stable main branch and to allow safe collaboration. A branch creates an isolated copy where a developer can work on a new feature without breaking the main code. A pull request is then opened to propose those changes back into main. This triggers a code review process where teammates check the code for bugs, style, and logic, run automated tests, and leave comments or request changes before the code is approved and merged.
